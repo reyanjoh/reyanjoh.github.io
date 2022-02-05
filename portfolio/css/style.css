@@ -1,0 +1,695 @@
+:root{
+    font-size: 16px;
+    overflow-x: hidden;
+}
+*{
+    font-family: sans-serif;
+    font-weight: 200;
+}
+
+body{
+    overflow-x: hidden;
+    padding: 0;
+    margin: 0;
+}
+
+#app{
+    display: flex;
+    width: 98%;
+    padding: 1rem;
+}
+
+#profile{
+    padding: 0;
+}
+#profile img{
+    height:20rem;
+    /* opacity: .7; */
+}
+
+#aditionalInfo{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+h1{
+    font-size: 1.8rem;
+    margin: 1rem 1rem 1.5rem ;
+}
+
+p{
+    margin: 1.5rem 1rem;
+    color: #757575;
+}
+
+ul{
+    padding: 0;
+    list-style: none;
+}
+
+hr{
+    margin: 2rem .98rem;
+    width: 90%;
+    border: solid #EEEEEE 1px;
+}
+
+h3{
+    margin: 1rem 2rem;
+    color: #757575;
+    font-weight: bold;
+}
+
+h4{
+    margin-left: 1.5rem;
+    color: #009688;
+    font-size: 1.1rem;
+}
+
+span{
+    background-color: #009688;
+    color: azure;
+    padding: .3rem .8rem;
+    border-radius: 6px;
+}
+
+.container{
+    box-shadow: 1px 3px 8px 3px rgba(117, 117, 117, .3);
+}
+
+.skillsP{
+    margin: 1rem;
+}
+
+.range{
+    margin: 0 1rem;
+    border-radius: 10rem;
+    width: 90%;
+    background-color: #F1F1F1;
+}
+.rangevalue{
+    border-radius: 10rem;
+    height: 1.3rem;
+    background-color: #009688;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: azure;
+    font-size: 1.2rem;
+
+}
+.info{
+    padding: 1rem 2.5rem 3rem;
+    margin: 0 1rem 1rem 1rem;
+    width: 88%;
+}
+.infoHeadings{
+    font-size: 2.3rem;
+    margin: 1rem 0 2.5rem 0;
+    color: #757575;
+    font-weight: 200;
+}
+.infoTitle{
+    margin: 0;
+    font-size: 1.2rem;
+}
+.hrmobile{
+    display: none;
+}
+
+
+.infoContent{
+    color: black;
+    margin: 0;
+    line-height: 2rem;
+
+}
+.infohr{
+    margin: 2rem 0;
+    width: 100%;
+}
+
+/*/////////////////////////*/
+/*////Tablets Landscape////*/
+/*/////////////////////////*/
+
+@media (max-width: 1366px){
+    :root{
+        font-size: 14px;
+    }
+    body{
+        padding-bottom: 40rem;
+    }
+
+    #app{
+        padding: .7rem;
+        width: 99%;
+
+}
+@media (max-width: 1024px){
+    :root{
+        font-size: 14px;
+    }
+    body{
+        padding-bottom: 60rem;
+    }
+
+    #app{
+        padding: .7rem;
+        width: 98%;
+    }
+    #profile{
+        width: 25rem;
+    }
+
+    #profile img{
+        width: 100%;
+        height: 17rem;
+    }
+    h1{
+        font-size: 2rem;
+    }
+    p{
+        font-size: 1.1rem;
+        margin: 1rem;
+    }
+
+    hr{
+        margin: 2rem .98rem;
+    }
+
+    h3{
+        font-size: 1.2rem;
+    }
+
+    .skillsP{
+        margin: 1.5rem 1.2rem .5rem;
+    }
+    
+    .rangevalue{
+        height: 1.2rem;
+    }
+    h6{
+        font-size: .9rem;
+    }
+
+    #aditionalInfo{
+        margin: 0;
+        padding: 0;
+        width: 60%;
+    }
+    .container{
+        box-shadow: 1px 1px 8px 1px rgba(117, 117, 117, .3);
+    }
+    .info{
+        padding: 1rem 2.5rem 3rem;
+        margin: 0 .8rem .8rem;
+        width: 93%;
+    }
+    .infoHeadings{
+        font-size: 1.8rem;
+        margin: 1rem 0;
+    }
+    .hrmobile{
+        display: none;
+    }
+
+    .infoTitle{
+        font-size: 1.2rem;
+    }
+    
+    .infoContent{
+        color: black;
+        margin: 0;
+        line-height: 1.8rem;
+    
+    }    
+    span{
+        background-color: #009688;
+        color: azure;
+        padding: .2rem .7rem;
+        border-radius: 6px;
+    }
+}
+
+
+/*/////////////////////////*/
+/*////Tablets and under////*/
+/*/////////////////////////*/
+@media (max-width: 768px){
+    :root{
+        font-size: 13px;
+        overflow-x: hidden;
+    }
+
+    body{
+        padding-bottom: 45rem;
+    }
+
+    #app{
+        padding: .8rem;
+    }
+
+    #profile{
+        width: 20rem;
+    }
+
+    #profile img{
+        width: 100%;
+        height: 14rem;
+    }
+
+    h1{
+        font-size: 1.5rem;
+    }
+    p{
+        font-size: .9rem;
+        margin: .5rem 1rem;
+    }
+
+    hr{
+        margin: 1rem .98rem;
+    }
+
+    h3{
+        font-size: 1rem;
+    }
+
+    .skillsP{
+        margin-bottom: .5rem;
+    }
+    
+    .rangevalue{
+        height: .9rem;
+    }
+    h6{
+        font-size: .8rem;
+    }
+
+    #aditionalInfo{
+        margin: 0;
+        padding: 0;
+        width: 59.5%;
+    }
+    .container{
+        box-shadow: 1px 2px 6px 2px rgba(117, 117, 117, .2);
+    }
+    .info{
+        padding: 1rem 2.5rem 3rem;
+        margin: 0 .6rem .6rem;
+        width: 90%;
+    }
+    .infoHeadings{
+        font-size: 2rem;
+        margin: 1rem 0;
+    }
+
+    .hrmobile{
+        display: none;
+    }
+
+    .infoTitle{
+        font-size: 1.1rem;
+    }
+    
+    .infoContent{
+        color: black;
+        margin: 0;
+        line-height: 1.5rem;
+    
+    }    
+    span{
+        background-color: #009688;
+        color: azure;
+        padding: .2rem .7rem;
+        border-radius: 5px;
+    }
+}
+/*//////////////////////////////////////*/
+/*//////////// Surface Duo //////////// */
+/*//////////////////////////////////////*/
+@media (max-width: 540px){
+    :root{
+        font-size: 16px;
+        overflow-x: hidden;
+    }
+
+    body{
+        padding-bottom: 10rem;
+    }
+
+    #app{
+        padding: 2% 5%;
+        flex-direction: column;
+    }
+
+    #profile{
+        width: 90.5%;
+    }
+
+    #profile img{
+        width: 100%;
+        height: 20rem;
+    }
+
+    h1{
+        font-size: 1.8rem;
+        text-align: center;
+    }
+    p{
+        text-align: center;
+        font-size: 1rem;
+        margin: .8rem 1rem;
+    }
+
+    hr{
+        margin: 1rem .98rem;
+    }
+
+    h3{
+        text-align: center;
+        font-size: 1.2rem;
+    }
+    h4{
+        text-align: center;
+        margin: 1.5rem 0;
+    }
+
+    .skillsP{
+        text-align: start;
+        margin-bottom: .5rem;
+    }
+    
+    .rangevalue{
+        height: 1.2rem;
+    }
+    h6{
+        font-size: .8rem;
+    }
+
+    #aditionalInfo{
+        margin: 0;
+        padding: 0;
+        width: 83.5%;
+    }
+    .container{
+        box-shadow: 1px 2px 6px 2px rgba(117, 117, 117, .2);
+    }
+    .info{
+        padding: 1rem 2.5rem 3rem;
+        margin: 1rem 0 .6rem;
+        width: 90%;
+    }
+    .infoHeadings{
+        font-size: 2rem;
+        margin: 1rem 0;
+    }
+
+    .hrmobile{
+        background-color: #EEEEEE;
+        width: 12rem;
+        border-radius: 2rem;
+        height: .2rem;
+        margin: 1rem 6.5rem 3rem;
+        display: block;
+    }
+
+    .infoTitle{
+        font-size: 1.1rem;
+    }
+    
+    .infoContent{
+        color: black;
+        margin: 0;
+        line-height: 1.5rem;
+    
+    }    
+    .infoContentsmall{
+        text-align: start;
+    }
+    span{
+        background-color: #009688;
+        color: azure;
+        padding: .2rem .7rem;
+        border-radius: 5px;
+    }
+}
+/*/////////////////////////*/
+/*//////////Mobile/////////*/
+/*/////////////////////////*/
+@media (max-width: 500px){
+    :root{
+        font-size: 13px;
+        overflow-x: hidden;
+    }
+
+    body{
+        padding-bottom: 20rem;
+    }
+
+    #app{
+        padding: .8rem;
+        flex-direction: column;
+    }
+
+    #profile{
+        width: 93%;
+        padding: 0;
+    }
+
+    #profile img{
+       width: 100%;
+    }
+
+    h1{
+        font-size: 2rem;
+        text-align: center;
+    }
+    p{
+        font-size: 1.1rem;
+        margin: .5rem 0;
+        text-align: center;
+    }
+
+    hr{
+        margin: 2rem .98rem;
+    }
+
+    h3{
+        font-size: 1.5rem;
+    }
+
+    h4{
+        text-align: center;
+        margin: 2rem 0;
+    }
+
+    .skillsP{
+        font-size: 1.1rem;
+        margin: 1.5rem 1rem .5rem;
+        text-align: start;
+    }
+    
+    .rangevalue{
+        height: 1.3rem;
+    }
+    h6{
+        font-size: .9rem;
+    }
+
+    #aditionalInfo{
+        margin: 0;
+        padding: 0;
+        width: 87.7%;
+    }
+    .container{
+        box-shadow: 1px 2px 6px 2px rgba(117, 117, 117, .2);
+    }
+    .info{
+        padding: 1rem 2.5rem 3rem;
+        margin: 1rem 0 .6rem;
+        width: 90%;
+    }
+    .infoHeadings{
+        text-align: center;
+        font-size: 1.8rem;
+        margin: 1rem 0;
+    }
+    .hrmobile{
+        display: block;
+        margin: .8rem 10% 3rem;
+        height: 3px;
+        width: 80%;
+        border-radius: 10rem;
+        background-color: #EEEEEE;
+    }
+    .infoTitle{
+        text-align: center;
+        font-size: 1.2rem;
+    }
+    
+    .infoContent{
+        color: black;
+        font-size: 1.1rem;
+        margin: 0;
+        line-height: 1.5rem;
+    
+    }    
+    span{
+        background-color: #009688;
+        color: azure;
+        padding: .2rem .7rem;
+        border-radius: 5px;
+    }
+}
+@media (max-width: 414px){
+    
+    #profile{
+        width: 95%;
+        padding: 0;
+    }
+
+}
+
+@media (max-width: 375px){
+    
+    #profile{
+        width: 96.5%;
+        padding: 0;
+    }
+
+}
+
+
+@media (max-width: 360px){
+    :root{
+        font-size: 13px;
+        overflow-x: hidden;
+    }
+
+    body{
+        padding-bottom: 10rem;
+    }
+
+    #app{
+        padding: .3rem;
+        flex-direction: column;
+    }
+
+    #profile{
+        width: 98%;
+        padding: 0;
+    }
+
+    #profile img{
+        width: 100%;
+    }
+
+    h1{
+        font-size: 2rem;
+        text-align: center;
+    }
+    p{
+        font-size: 1.1rem;
+        margin: .5rem 0;
+        text-align: center;
+    }
+
+    hr{
+        margin: 2rem .98rem;
+    }
+
+    h3{
+        font-size: 1.5rem;
+    }
+
+    h4{
+        text-align: center;
+        margin: 2rem 0;
+    }
+
+    .skillsP{
+        font-size: 1.1rem;
+        margin: 1.5rem 1rem .5rem;
+        text-align: start;
+    }
+    
+    .rangevalue{
+        height: 1.3rem;
+    }
+    h6{
+        font-size: .9rem;
+    }
+
+    #aditionalInfo{
+        margin: 0;
+        padding: 0;
+        width: 89%;
+    }
+    .container{
+        box-shadow: 1px 2px 6px 2px rgba(117, 117, 117, .2);
+    }
+    .info{
+        padding: 1rem 2.5rem 3rem;
+        margin: 1rem 0 .6rem;
+        width: 90%;
+    }
+    .infoHeadings{
+        text-align: center;
+        font-size: 1.8rem;
+        margin: 1rem 0;
+    }
+
+    .hrmobile{
+        display: block;
+    }
+
+    .infoTitle{
+        text-align: center;
+        font-size: 1.2rem;
+    }
+    
+    .infoContent{
+        color: black;
+        font-size: 1.1rem;
+        margin: 0;
+        line-height: 1.5rem;
+    
+    }    
+    .infoContentsmall{
+        text-align: start;
+    }
+    span{
+        background-color: #009688;
+        color: azure;
+        padding: .2rem .7rem;
+        border-radius: 5px;
+    }
+}
+
+@media (max-width: 320px){
+    
+    #profile{
+        width: 97%;
+    }
+    #profile img{
+        height: 16rem;
+    }
+    .info{
+        width: 85.5%;
+    }
+
+}
+@media (max-width: 280px){
+    
+    #profile{
+        width: 96.5%;
+    }
+    #profile img{
+        height: 14rem;
+    }
+    .info{
+        width: 82%;
+    }
+
+}
