@@ -1,0 +1,45 @@
+:root{
+
+    --mainBGColor: #232323;
+    --header-colors: #EBEBEB;
+    --light-header-colors: #d1d1d1;
+    --paragraph-dark: #a5a5a5;
+    /* --names-colors: #324059; */
+
+    --main-color: #EBFB5D;
+
+    --logo-font : 'Cedarville Cursive', cursive;
+    --content-font: 'League Gothic', sans-serif;
+    --content-paragraph-font: 'Segoe UI';
+
+    --content-padding: 8rem;
+    --headings : 2.5rem; 
+    --buttons-and-menu-size: 1rem;
+    --h2-headings: 1.1rem;
+    --h3-headings: 1.4rem;
+    
+}
+
+
+.img{
+    width: 100%;
+}
+
+.gallery-content{
+    padding: 1rem var(--content-padding);
+}
+
+.gallery-photos{
+    background-color: #181818;
+    padding: 0 2rem;
+}
+
+.gallery-headings{
+    font-size: 1.8rem;
+    letter-spacing: 3px;
+}
+
+.menu{
+    /* background-color: #a5a5a5; */
+    margin-right: 1rem;
+}
