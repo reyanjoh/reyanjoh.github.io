@@ -101,6 +101,10 @@ header{
     font-weight: 600;
 }
 
+.restricted:hover{
+    cursor: not-allowed;
+}
+
 .menu:hover{
     color: var(--main-color);
 }
@@ -191,12 +195,15 @@ header{
     font-family: var(--content-font);
     font-weight: 500;
     letter-spacing: 1px;
+    height: 5rem;
+    overflow: hidden;
 }
 
 .paragraph-light{
     color: var(--light-header-colors);
     line-height: 1.3;
     font-size: var(--h2-headings);
+    height: 2rem;
 }
 
 .view-more-single-btn{
