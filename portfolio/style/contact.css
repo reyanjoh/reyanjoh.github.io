@@ -1,0 +1,68 @@
+#hiro{
+    /* background-color: brown; */
+    flex-direction: row;
+    
+    width: 80vw;
+    height: 70vh;
+}
+#contact-info{
+    /* background-color: rgb(56, 69, 81); */
+    height: 100%;
+    width: 45%;
+    text-align: center;    
+}
+
+.contact-header{
+    margin: 5rem 0 2rem;
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+.contact-info-headers{
+    font-weight: 700;
+    letter-spacing: 3px;
+}
+
+.contact-info-text{
+    font-size: .8rem;
+    letter-spacing: 3px;
+    height: 3rem;
+    margin: 0.5rem 10%;
+    width: 80%;
+    color: aliceblue;
+}
+
+.intro{
+    margin: 2rem 10% 4.5rem;
+}
+
+.center-text{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    margin: 0 5rem;
+}
+
+form{
+    height: 100%;
+    width: 45%;
+    background-color: #1E1E1E;
+    box-shadow: 0 0 40px 15px rgb(22, 22, 22);
+}
+
+input{
+    height: 3rem;
+    margin: 1rem 10%;
+    width: 80%;
+    color: aliceblue;
+    background-color: transparent;
+    border: 0;
+    border-bottom: 1px solid aliceblue;
+}
+
+#submit{
+    color: aliceblue;
+    background-color: rgb(22, 22, 22);
+    border: none;
+    box-shadow: 5px 5px 300px 5px black;
+}
