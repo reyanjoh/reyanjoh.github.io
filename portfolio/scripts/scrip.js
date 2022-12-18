@@ -30,7 +30,7 @@ addEventListener('click', (e) => {
 
     if(e.target.classList.contains('projects')){
 
-        // document.querySelector('.typing-animation').style.color = 'transparent';
+        document.querySelector('.typing-animation').style.color = 'transparent';
         document.querySelector('.typing-animation').innerText = 'Portfolio';
         document.querySelector('.loader-in').classList.add("loader-in-animation");
         setTimeout(() =>{

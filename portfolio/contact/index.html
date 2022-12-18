@@ -61,15 +61,17 @@
     
                 </div>
     
-                <form action="" class="center-text">
+                <form id="form" action="https://formspree.io/f/xlekrjnr" method="post" class="center-text">
                     <span class="contact-header">CONTACT FORM</span>
     
-                    <input placeholder="Your name" type="text" name="" id="">
-                    <input placeholder="Your Phone" type="text" name="" id="">
-                    <input placeholder="Your e-mail" type="email" name="" id="">
-                    <input placeholder="Your message" type="textarea" name="" id="">
+                    <input required placeholder="Your name" type="text" name="name" id="">
+                    <input required placeholder="Your Phone" type="number" name="phone" id="">
+                    <input required placeholder="Your e-mail" type="email" name="email" id="">
+                    <input required placeholder="Your message" type="textarea" name="message" id="">
     
                     <input value="SEND MESSAGE" type="submit" name="" id="submit">
+
+                    <div class="status"></div>
                 </form>
             </div>
         
@@ -97,5 +99,6 @@
     </div>
 </body>
     <script src="../scripts/scrip.js"></script>
+    <script src="../scripts/prevent-form-default.js"></script>
     <!-- <script src="./scripts/animation.js"></script> -->
 </html>
