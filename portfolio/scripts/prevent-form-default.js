@@ -12,7 +12,7 @@ var form = document.getElementById("form");
         }
       }).then(response => {
         if (response.ok) {
-          status.innerHTML = "Thanks for your submission!";
+          status.innerHTML = "Thanks, I'll get back to you soon!";
           form.reset()
         } else {
           response.json().then(data => {
