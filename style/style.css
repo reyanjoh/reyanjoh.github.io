@@ -219,24 +219,42 @@ h1{
     background-color: #3C3D41;
  }
 
- @media (max-width: 1397px) {
-    
-    h1{
-        color: red;
-    }
-    .typing-animation::before{
-        color: aqua;
-        background-color: red;
-    }
- }
 
  @media (max-width: 750px) {
     
+
+    .greetings{
+        margin-left: 2rem;
+        /* text-shadow: 1px 1px 5px  #000000; */
+        color: rgb(126, 126, 126);
+    }
+    
     h1{
-        color: red;
+        font-size: 8rem;
+        font-weight: 700;
+        text-shadow: 1px 1px 5px 0 #313131;
     }
-    .typing-animation::before{
-        color: aqua;
-        background-color: red;
+    
+    .calling{
+        margin-left: 2rem;
     }
+    
  }
+
+ @media (max-width: 600px) {
+
+    nav > .nav > .nav-btn{
+        padding-left: 1rem;
+    }
+
+    h1{
+        font-size: 6rem;
+    }
+}
+
+@media (max-width: 500px) {
+
+    h1{
+        margin-left: 3rem;
+    }
+}
