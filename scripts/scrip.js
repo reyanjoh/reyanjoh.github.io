@@ -25,7 +25,7 @@ addEventListener('click', (e) => {
                 
         setTimeout(() =>{
             // window.location.assign('http://127.0.0.1:5500/contact');
-            window.location.assign('https://reyanjoh.github.io/portfolio/contact');
+            window.location.assign('https://reyanjoh.github.io/contact');
         },2000);
     }
 
@@ -40,7 +40,7 @@ addEventListener('click', (e) => {
                 
         setTimeout(() =>{
             // window.location.assign('http://127.0.0.1:5500/projects');
-            window.location.assign('https://reyanjoh.github.io/portfolio/projects');
+            window.location.assign('https://reyanjoh.github.io/projects');
         },2000);
     }
 
