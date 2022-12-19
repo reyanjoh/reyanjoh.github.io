@@ -274,7 +274,7 @@ h1{
     }
 }
 
-@media (max-width: 415px) {
+@media (max-width: 445px) {
 
     nav > .nav{
         flex-direction: column;
