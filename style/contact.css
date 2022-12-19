@@ -109,6 +109,7 @@ form{
     }
     form{
         width: 70%;
+        height: 90%;
     }
 
     
@@ -119,10 +120,6 @@ form{
     #contact-info{
         display: none;
     }
-    form{
-        width: 70%;
-    }
-
     
 }
 
