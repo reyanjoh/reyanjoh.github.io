@@ -258,3 +258,31 @@ h1{
         margin-left: 3rem;
     }
 }
+
+@media (max-width: 415px) {
+
+    nav > .nav{
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+
+    nav > .nav > .nav-btn{
+        height: 1rem;
+        margin: 0;
+    }
+
+    .greetings{
+        margin-left: 6rem;
+    }
+
+    h1{
+        font-size: 4rem;
+        margin-left: 5rem;
+    }
+
+    .calling{
+        margin-left: 5.7rem;
+    }
+}
+
