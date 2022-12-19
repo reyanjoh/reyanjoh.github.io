@@ -36,7 +36,7 @@ nav{
     /* background-color: aquamarine; */
 }
 
-.logo::before{
+/* .logo::before{
     position: absolute;
     content: '';
     width: 7px;
@@ -46,7 +46,7 @@ nav{
     bottom: 10px;
     right: -12px;
     background-color: #F0F8FF;
-}
+} */
 
 
 nav > .logo-div{
@@ -272,6 +272,14 @@ h1{
     h1{
         margin-left: 3rem;
     }
+
+    footer{
+        padding: 1.5rem;
+    }
+
+    nav{  
+        padding: 1.5rem;
+    }
 }
 
 @media (max-width: 445px) {
@@ -301,3 +309,14 @@ h1{
     }
 }
 
+@media (max-width: 390px) {
+
+    footer{
+        padding: 0.5rem;
+    }
+
+    nav{  
+        padding: 0.5rem;
+    }
+    
+}
