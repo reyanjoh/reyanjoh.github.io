@@ -33,7 +33,9 @@
 }
 
 .intro{
-    margin: 2rem 10% 4.5rem;
+    margin: 2rem 10% 0;
+    height: 9rem;
+    /* background-color: aqua; */
 }
 
 .center-text{
@@ -50,7 +52,7 @@ form{
     box-shadow: 0 0 80px 0px #1a1a1a;
 }
 
-input{
+.form-input{
     height: 3rem;
     margin: 1rem 10%;
     width: 80%;
@@ -73,3 +75,57 @@ input{
     background-color: rgba(4, 4, 4, 0);
     
 }
+
+
+@media (max-width: 1397px){
+    #hiro{
+        /* background-color: rgb(255, 107, 107); */
+
+        height: 75vh
+    }
+
+    .center-text{
+        /* background-color: #1E1E1E; */
+        
+        margin: 0 0.5rem;
+    }
+    .contact-header{
+        margin: 2rem 0 1rem;
+    }
+
+    .contact-info-text{
+        letter-spacing: 2px;
+    }
+
+    .intro{
+        margin: 2rem 10% 1rem;
+        height: 9rem;
+    }
+}
+
+@media (max-width: 850px) {
+    #contact-info{
+        display: none;
+    }
+    form{
+        width: 70%;
+    }
+
+    
+}
+
+
+@media (max-width: 570px) {
+    #contact-info{
+        display: none;
+    }
+    form{
+        width: 70%;
+    }
+
+    
+}
+
+
+
+
