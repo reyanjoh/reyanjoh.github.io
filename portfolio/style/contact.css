@@ -47,7 +47,7 @@ form{
     height: 100%;
     width: 45%;
     background-color: #1E1E1E;
-    box-shadow: 0 0 40px 15px rgb(22, 22, 22);
+    box-shadow: 0 0 80px 0px #1a1a1a;
 }
 
 input{
@@ -64,5 +64,5 @@ input{
     color: aliceblue;
     background-color: rgb(22, 22, 22);
     border: none;
-    box-shadow: 5px 5px 300px 5px black;
+    box-shadow: 5px 5px 30px 5px #1a1a1a;
 }

@@ -24,6 +24,7 @@ addEventListener('click', (e) => {
         },2000);
                 
         setTimeout(() =>{
+            // window.location.assign('contact');
             window.location.assign('https://reyanjoh.github.io/portfolio/contact');
         },2000);
     }

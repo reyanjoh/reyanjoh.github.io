@@ -99,6 +99,8 @@ footer{
 
 #hiro{
     /* background-color: brown; */
+    position: relative;
+    z-index: 2;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -108,12 +110,14 @@ footer{
 
 .greetings{
     margin-left: 6rem;
-    color: var(--sub-text);
+    /* text-shadow: 1px 1px 5px  #000000; */
+    color: rgb(126, 126, 126);
 }
 
 h1{
     font-size: 8rem;
     font-weight: 700;
+    text-shadow: 1px 1px 50px  #1a1a1a;
 }
 
 .calling{
@@ -138,6 +142,7 @@ h1{
 #loader{
     background-color: #1E1E1E;
     position: fixed;
+    z-index: 10;
     width: 100vw;
     top: 0;
     bottom: 0;
@@ -156,6 +161,7 @@ h1{
 .loader-in{
     background-color: #1E1E1E;
     position: fixed;
+    z-index: 11;
     width: 100vw;
     top: 0;
     bottom: 0;
@@ -191,4 +197,22 @@ h1{
     flex-direction: column;
     align-items: center;
     justify-content: center;
+ }
+
+
+
+
+
+
+ .light{
+    z-index: 1;
+    position: fixed;
+    top: -5rem;
+    left: 40rem;
+    width: 10rem;
+    height: 10rem;
+
+    box-shadow: 0 0 100px 80px #3C3D41, 0 0 130px 160px #3C3D41, 0 0 130px 260px #3C3D41, 0 0 160px 460px #3C3D41;
+    border-radius: 50%;
+    background-color: #3C3D41;
  }
