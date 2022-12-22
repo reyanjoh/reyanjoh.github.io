@@ -88,3 +88,28 @@
     }
 }
 
+/* ------------- */
+/* media queries */
+/* ------------- */
+
+@media (max-width: 600px) {
+
+    .name-animate{
+        margin-left: 8rem;
+    }
+    
+    .typing-animation{
+        margin-left: 8rem;
+    }
+
+}
+@media (max-width: 500px) {
+
+    .name-animate{
+        margin-left: 5rem;
+    }
+    
+    .typing-animation{
+        margin-left: 8rem;
+    }
+}
