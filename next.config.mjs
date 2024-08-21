@@ -1,7 +1,8 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
     output: "export",
-    basePath: "/nextjs-github-pages",
+    distDir: "dist",
+    basePath: "/reyanjoh.github.io",
     images: {
     unoptimized: true,
   },
