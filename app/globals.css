@@ -90,7 +90,7 @@
 html,
 body {
   max-width: 100vw;
-  overflow: hidden;
+  overflow-x: hidden;
 
 }
 
@@ -107,6 +107,31 @@ body {
 
 
 }
+
+.light{
+  z-index: -1;
+  position: fixed;
+  top: -5rem;
+  left: 40rem;
+  width: 10rem;
+  height: 10rem;
+
+  box-shadow: 0 0 100px 80px #3C3D41, 0 0 130px 160px #3C3D41, 0 0 130px 260px #3C3D41, 0 0 160px 460px #3C3D41;
+  border-radius: 50%;
+  background-color: #3C3D41;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  justify-content: center;
+  align-items: center;
+  padding: 6rem;
+  min-height: 100vh;
+  /* background-color: rgb(98, 55, 55); */
+}
+
 
 a {
   color: inherit;

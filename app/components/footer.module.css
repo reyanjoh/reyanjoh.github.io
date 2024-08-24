@@ -1,7 +1,7 @@
 .footer{
     /* background-color: blueviolet; */
     padding: 3.5rem 4rem;
-    position: absolute;
+    position: fixed;
     z-index: 10;
     bottom: 0;
     left: 0;

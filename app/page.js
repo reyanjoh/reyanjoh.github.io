@@ -6,7 +6,7 @@ import home from "./homepage.module.css";
 
 export default function Home() {
   return (
-    <main className={styles.main}>
+    <main className='main'>
       <div className={home.body}>
         
         <div className={home.hiro}>
