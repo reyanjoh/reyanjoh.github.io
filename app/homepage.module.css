@@ -1,0 +1,40 @@
+.body{
+    /* height: 100%; */
+    /* background-color: brown; */
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.hiro{
+    /* background-color: brown; */
+    position: relative;
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* height: 100vh; */
+}
+
+.greetings{
+    margin-left: 6rem;
+    /* text-shadow: 1px 1px 5px  #000000; */
+    color: var(--sub-text);
+}
+
+.name{
+    font-size: 8rem;
+    font-weight: 700;
+    text-shadow: 1px 1px 50px  #1a1a1a;
+}
+
+.calling{
+    margin-left: 13.5rem;
+}
+.callingText{
+    line-height: 2rem;
+    color: var(--sub-text);
+}
