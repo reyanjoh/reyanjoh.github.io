@@ -1,0 +1,36 @@
+.main{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.left{
+    padding: 2rem;
+    width: 28rem;
+    
+}
+
+.left p{
+    letter-spacing: 1px;
+    line-height: 1.3rem;
+    font-size: .9rem;
+    text-indent: 1rem;
+}
+
+.left p a{
+    letter-spacing: 1px;
+    line-height: 1.3rem;
+    font-size: .8rem;
+    font-weight: 800;
+    color: white;
+    /* text-decoration: underline; */
+
+}
+
+.left h1{
+    margin-bottom: 1rem;
+}
+
+.img{
+    height: 25rem;
+}

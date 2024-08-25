@@ -2,7 +2,12 @@ import React from 'react'
 
 function Page() {
   return (
-    <div>contacts</div>
+    <main className='main'>
+      <div>
+        
+      </div>
+    </main>
+
   )
 }
 

@@ -1,5 +1,4 @@
 .nav{
-    /* background-color: red; */
     position: fixed;
     z-index: 2;
     left: 0;
@@ -11,7 +10,6 @@
 }
 
 .logoDiv{
-    /* background-color: aqua; */
     display: flex;
     align-items: center;
     justify-content: center;
@@ -22,22 +20,20 @@
     line-height: 2rem;
     font-size: 2rem;
     font-weight: 800;
-    /* background-color: aquamarine; */
 }
 
 .mainNav{
     display: flex;
     align-items: center;
-    justify-content: end;
-    /* background-color: red; */
     height: 5rem;
 }
 
 .navBtn{
-    border: none;
-    font-size: 1rem;
-    background-color: transparent;
-    padding-left: 5rem;
-    text-decoration: none;
-    cursor: pointer;
+    font-size: .75rem;
+    padding-left: 3rem;
+    transition: .2s;
+}
+
+.navBtn:hover{
+    color: rgb(191, 201, 255);
 }
