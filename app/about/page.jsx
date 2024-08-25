@@ -32,7 +32,7 @@ function page() {
 
             </article>
             <div className={styles.right}>
-                <img className={styles.img} src={'./imgs/face.webp'} />
+                <img alt='' className={styles.img} src={'./imgs/face.webp'} />
             </div>
         </div>
     </main>
