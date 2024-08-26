@@ -15,7 +15,7 @@ export const metadata = {
     siteName: 'Reyan John Narvaja Portfolio',
     images: [
       {
-        url:'./page covers/Home page cover.webp',
+        url:'https://reyanjoh.github.io/page%20covers/Home%20page%20cover.webp',
         width: '1200',
         height: '628',
       }
