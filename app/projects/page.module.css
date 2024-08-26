@@ -35,7 +35,7 @@
 
 
 .project{
-    padding: 1.5rem;
+    padding: 1rem;
     margin-left: 3rem;
     display: flex;
     gap: 1.5rem;
@@ -68,11 +68,11 @@
 
 .info h2::after{
     content: '🡥';
-    font-size: .9rem;
+    font-size: 1rem;
     position: absolute;
-    bottom: 0;
-    margin-left: 4px;
-    transition: .2s;
+    bottom: -3px;
+    margin-left: 8px;
+    transition: .1s;
 
 }
 
@@ -101,8 +101,8 @@
 }
 
 .project:hover .info h2::after{
-    bottom: 4px;
-    margin-left: 8px;
+    bottom: 0px;
+    margin-left: 11px;
     color: var(--primary-highlight);
 }
 
@@ -126,23 +126,30 @@
     font-weight: 700;
 }
 
-.archies{
-    margin: 1rem 4.5rem;
+.archive{
+    margin: 1rem 3.5rem;
     /* background-color: rgb(51, 51, 51); */
     padding: .5rem 1rem;
     font-family: 700;
     display: flex;
     align-items: center;
     transition: .3s;
+    position: relative;
 }
-.archies::after{
+.archive::after{
     content: '⇀';
     font-weight: 500;
     font-size: 1.5rem;
-    margin-left: .5rem;
+    position: absolute;
+    left: 12.4rem;
+    transition: .1s;
 }
 
-.archies:hover{
+.archive:hover{
     color: var(--primary-highlight);
+}
+
+.archive:hover:after{
+    left: 12.8rem;
 }
 

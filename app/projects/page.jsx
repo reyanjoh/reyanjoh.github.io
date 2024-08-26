@@ -106,7 +106,7 @@ function Page() {
           </a>
 
  
-          <Link className={styles.archies} href={'/projects/archies'}>
+          <Link className={styles.archive} href={'/projects/archives'}>
             View Full Project Archive 
           </Link>
         
