@@ -5,6 +5,12 @@ import { LuArrowUpRight } from "react-icons/lu";
 import Link from 'next/link';
 
 
+export const metadata = {
+  title: "Projects | a showcase of my best work throughout the years",
+  description: "The world of digital design and development is constantly evolving and so has my role over the last years. I`m still learning and gaining new skills every day.",
+};
+
+
 function Page() {
   return (
     <main className='main'>
