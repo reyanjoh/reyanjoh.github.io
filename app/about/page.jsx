@@ -7,6 +7,7 @@ import Link from 'next/link'
 export const metadata = {
     title: "About | Reyan John Narvaja",
     description: "a developer and SEO specialist based in Northern Mindanao, Philippines.  If you`re looking for someone to build or optimize your website. just reach me out",
+    
   };
 
 function page() {
