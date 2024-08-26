@@ -9,7 +9,17 @@ export const metadata = {
   title: "Reyan John Narvaja",
   description: "Reyan John Narvaja | Web Developer / SEO Specialist",
   openGraph: {
-    images: ['./page covers/Home page cover.webp', ...previousImages],
+    title: "Reyan John Narvaja",
+    description: "Reyan John Narvaja | Web Developer / SEO Specialist",
+    url: 'https://reyanjoh.github.io/',
+    siteName: 'Reyan John Narvaja Portfolio',
+    images: [
+      {
+        url:'./page covers/Home page cover.webp',
+        width: '1200',
+        height: '628',
+      }
+    ],
   },
   
 };
