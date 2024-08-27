@@ -19,7 +19,7 @@ function Page() {
         <article className={styles.article}>
           <h1>Projects</h1>
           <p>
-            This is a showcase of my best work building products for a variety of clients in different fields including Start up company, photography portfolios,
+            This is a showcase of my best work building products for a variety of clients in different fields including Start up company, photography portfolios.
           </p>
           {/* auto repair shops, legal firms, pet accessories stores, health, and many more. */}
           <p>
