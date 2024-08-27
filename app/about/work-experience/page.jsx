@@ -46,7 +46,7 @@ function Page() {
             role='Freelacer' 
             epx={
               [
-                <p>
+                <p key={11}>
                   As a Freelance Videographer and Photographer, I specialize in
                   capturing the essence of special occasions, including weddings,
                   debuts, and birthday parties. My work focuses on documenting
@@ -54,7 +54,7 @@ function Page() {
                   professional-grade cameras, lenses, and lighting to produce
                   high-quality images that preserve cherished memories.
                 </p>,
-                <p>
+                <p key={12}>  
                   In addition to photography, I work with dierent companies as a
                   freelancer to provide comprehensive live-streaming services for
                   pageants and various events. I handle all aspects of the live stream
@@ -68,7 +68,7 @@ function Page() {
             }
             feat={
               [
-                <span>Video Production</span>, <span>Facebook Live Streaming</span>, <span>Web Video</span> , <span>Video Post-Production</span>, <span>Videography</span>, <span>Photography</span>, <span>Event Photography</span>, <span>Wedding Photography</span>,<span>Live Video Streaming</span>,<span>Live Streaming</span>
+                // <span>Video Production</span>, <span>Facebook Live Streaming</span>, <span>Web Video</span> , <span>Video Post-Production</span>, <span>Videography</span>, <span>Photography</span>, <span>Event Photography</span>, <span>Wedding Photography</span>,<span>Live Video Streaming</span>,<span>Live Streaming</span>
               ]
             }
           />
@@ -79,17 +79,17 @@ function Page() {
             role='Visitour.ph' 
             epx={
               [
-                <p>
+                <p key={21}>
                   Visitour is a startup company that focuses on travel and local tourist destinations in the Philippines
                 </p>,
-                <p>
+                <p key={22}>
                   After I audited Visitour.ph`s website, I found a lot of SEO flaws such as improper usage of html heading tags, No metatag contents, unoptimized Images, lighthouse errors, and many more, I helped them optimized, rebuild their website and create website designs using figma for their X Deal clients.
                 </p>
               ]
             }
             feat={
               [
-                <span>Web Development</span>, <span>Web Design</span>, <span>Responsive Web Design</span>, <span>Web Analytics</span>, <span>React.js</span>, <span>Embedded JavaScript (EJS)</span>, <span>Node.js</span>, <span>Git</span>, <span>Figma (Software)</span>
+                // <span>Web Development</span>, <span>Web Design</span>, <span>Responsive Web Design</span>, <span>Web Analytics</span>, <span>React.js</span>, <span>Embedded JavaScript (EJS)</span>, <span>Node.js</span>, <span>Git</span>, <span>Figma (Software)</span>
               ]
             }
           />
@@ -100,12 +100,12 @@ function Page() {
             role='Hyperlilo' 
             epx={
               [
-                <p>
+                <p key={31}>
                   Hyperlilo is a Digital Marketing Agency that helps local and
                   foreign businesses become more strategic about their digital
                   marketing strategy.
                 </p>,
-                <p>
+                <p key={32}>
                   As an SEO strategist/expert my job was to do keyword research,
                   generate google analytics report, content/ image optimization and
                   review, copyright checking, GMB Optimization, GMb posting,
@@ -116,7 +116,7 @@ function Page() {
             }
             feat={
               [
-                <span>Search Engine Optimization (SEO)</span>, <span>local SEO</span>, <span>E-Commerce</span>, <span>Next.js</span>
+                // <span>Search Engine Optimization (SEO)</span>, <span>local SEO</span>, <span>E-Commerce</span>, <span>Next.js</span>
               ]
             }
           />
@@ -127,11 +127,11 @@ function Page() {
             role='ACS VA , Malaybalay, Bukidnon' 
             epx={
               [
-                <p>
+                <p key={41}>
                   I Started working as a RE VA Cold Caller Agent, and got promoted
                   to an Admin position after 3 months of working.
                 </p>,
-                <p>
+                <p key={42}>
                   As a VA Admin, my job covers many things, from email responses
                   and monitoring, managing and monitoring more than 50 agents'
                   productivity, managing dialers and tracking its data, to sending
@@ -141,7 +141,7 @@ function Page() {
             }
             feat={
               [
-                <span>Project Management</span>, <span>People Management</span>, <span>Document Management</span>, <span>Real Estate</span>, <span>Real Estate Listings</span>, <span>Real Property</span>
+                // <span>Project Management</span>, <span>People Management</span>, <span>Document Management</span>, <span>Real Estate</span>, <span>Real Estate Listings</span>, <span>Real Property</span>
               ]
             }
           />
