@@ -1,4 +1,4 @@
-// import Image from 'next/image'
+import Image from 'next/image'
 import React from 'react'
 import styles from './page.module.css'
 import Link from 'next/link'
@@ -35,7 +35,7 @@ function page() {
 
             </article>
             <div className={styles.right}>
-                <img alt='' className={styles.img} src={'./imgs/face.webp'} />
+                <Image height={200} width={200} alt='' className={styles.img} src={'./imgs/face.webp'} />
             </div>
         </div>
         

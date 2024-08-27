@@ -20,19 +20,19 @@ function Page() {
         <article className={styles.article}>
           <h1>Work Experience</h1>
           <p>
-            Here's my fun and adventurous journey in the past few years 
+            Here&apos;s my fun and adventurous journey in the past few years 
           </p>
 
           <p>
-            <span>Jack of all trades </span> 
+            <span>&quot;Jack of all trades&quot; </span> 
             a lot of people view it as a bad thing because of its common follow-up 
-            <span> master of none</span>, which makes people think that someone may have many skills but lacks deep experties.
+            <span> &quot;master of none&quot;</span>, which makes people think that someone may have many skills but lacks deep experties.
 
              
           </p>
           <p>
             but people often forget what the full quote or meaning of it really is 
-             <span>"Jack of all trades master of none, though oftentimes better than master of one." </span>
+             <span>&quot;Jack of all trades master of none, though oftentimes better than master of one.&quot; </span>
             with these diverse work experience and skill sets, it allows me take on various projects and adapt to different roles, making me versatile and capable of handling complex, multifaceted tasks.
           </p>
 
