@@ -30,6 +30,37 @@ function Page() {
         </article>
 
         <div className={styles.projects}>
+        <a target='_blank' className={styles.project} href={'https://Visitour.ph/'}>
+            <div className={styles.imageContainer}> 
+              <img src="./imgs/projects cover/Visitour.png" alt="Visitourph Project cover" />
+
+
+            </div>
+            <div className={styles.content}>
+              <div className={styles.info}>
+                <h2>thewedding-gallery</h2>
+                <p>
+                  Visitour is a startup company that focuses on travel and local
+                  tourist destinations in the Philippines
+                </p>
+              </div>
+              <div className={styles.feat}>
+                <span>
+                  EJS
+                </span>
+                <span>
+                  Node.js
+                </span>
+                <span>
+                  express
+                </span>
+                <span>
+                  mongodb
+                </span>
+              </div>
+              
+            </div>
+          </a>
 
           <a target='_blank' className={styles.project} href={'https://thewedding-gallery.pages.dev/'}>
             <div className={styles.imageContainer}> 
@@ -41,21 +72,15 @@ function Page() {
               <div className={styles.info}>
                 <h2>thewedding-gallery</h2>
                 <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam veritatis itaque, odit quasi quam, provident quas libero ad iure e
+                  The Wedding Gallery is made up of a variety of creatives from many professions that are passionate about impacting the future of our local photography in Bukidnon.
                 </p>
               </div>
               <div className={styles.feat}>
                 <span>
-                  Next.js
+                  React.js
                 </span>
                 <span>
-                  atik atik
-                </span>
-                <span>
-                  yawa animal HAHAHA
-                </span>
-                <span>
-                  Next.js
+                  Cloudeflare Pages
                 </span>
               </div>
               
