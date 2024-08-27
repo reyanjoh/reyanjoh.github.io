@@ -40,7 +40,7 @@ function Page() {
 
         <div className={styles.projects}>
 
-          <JobDes date='Oct 2023 - Present' 
+          <JobDes key={1} date='Oct 2023 - Present' 
             des='Videographer, Photographer, & Live Streaming
                 Production Technician' 
             role='Freelacer' 
@@ -74,7 +74,7 @@ function Page() {
           />
 
 
-          <JobDes date='Apr 2023 - Sep 2023' 
+          <JobDes key={2} date='Apr 2023 - Sep 2023' 
             des='Web Developer' 
             role='Visitour.ph' 
             epx={
@@ -95,7 +95,7 @@ function Page() {
           />
 
 
-          <JobDes date='Sep 2022- Jan 2023' 
+          <JobDes key={3} date='Sep 2022- Jan 2023' 
             des='SEO Strategist' 
             role='Hyperlilo' 
             epx={
@@ -122,7 +122,7 @@ function Page() {
           />
 
 
-          <JobDes date='Apr 2022 - Sep 2022' 
+          <JobDes key={4} date='Apr 2022 - Sep 2022' 
             des='Real Estate VA Admin/Workforce' 
             role='ACS VA , Malaybalay, Bukidnon' 
             epx={
