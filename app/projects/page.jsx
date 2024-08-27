@@ -39,7 +39,7 @@ function Page() {
             </div>
             <div className={styles.content}>
               <div className={styles.info}>
-                <h2>thewedding-gallery</h2>
+                <h2>VisitourPh</h2>
                 <p>
                   Visitour is a startup company that focuses on travel and local
                   tourist destinations in the Philippines
