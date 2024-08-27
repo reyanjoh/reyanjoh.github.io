@@ -1,0 +1,59 @@
+.main{
+    display: flex;
+    /* background-color: rebeccapurple; */
+    /* border: 1px solid red; */
+    height: 10rem;
+    width: 55rem;
+    justify-content: space-between;
+}
+
+.h1{
+    font-size: 6rem;
+    line-height: normal;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+}
+
+.form input, .form textarea{
+    background-color: transparent;
+    border: none;
+    border-bottom: 2px solid rgb(73, 72, 86);
+    font-size: 1.3rem;
+    width: 20rem;
+    margin-bottom: 1.5rem;
+    font-weight: 100;
+    outline: none;
+    
+}
+
+
+.form button{
+    background-color: transparent;
+    border: none;
+    font-size: 1.3rem;
+    text-align: left;
+    position: relative;
+}
+
+
+.form button::after{
+    content: '⇀';
+    font-size: 1.8rem;
+    position: absolute;
+    bottom: -3px;
+    margin-left: .8rem;
+    transition: .1s;
+    cursor: pointer;
+}
+
+
+.form button:hover{
+    color: var(--primary-highlight);
+}
+
+.form button:hover:after{
+    margin-left: 1.3rem;
+}
