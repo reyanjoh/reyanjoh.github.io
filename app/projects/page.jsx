@@ -72,7 +72,7 @@ function Page() {
               <div className={styles.info}>
                 <h2>thewedding-gallery</h2>
                 <p>
-                  The Wedding Gallery is made up of a variety of creatives from many professions that are passionate about impacting the future of our local photography in Bukidnon.
+                  The Wedding Gallery is made up of a variety of creatives from many professions that are passionate about impacting the future of our local photography in Bukidnon, Philippines.
                 </p>
               </div>
               <div className={styles.feat}>
@@ -87,7 +87,7 @@ function Page() {
             </div>
           </a>
 
-          <a target='_blank' className={styles.project} href={'https://thewedding-gallery.pages.dev/'}>
+          {/* <a target='_blank' className={styles.project} href={'https://thewedding-gallery.pages.dev/'}>
             <div className={styles.imageContainer}> 
               <img src="./imgs/projects cover/image.png" alt="" />
 
@@ -137,7 +137,7 @@ function Page() {
               </div>
               
             </div>
-          </a>
+          </a> */}
 
  
           <Link className={styles.archive} href={'/projects/archives'}>
