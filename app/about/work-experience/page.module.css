@@ -1,6 +1,6 @@
 .main{
     display: flex;
-    justify-content: end;
+    justify-content: flex-end;
     /* background-color: rgb(120, 96, 96); */
     width: 69rem;
     /* overflow-y: scroll; */
