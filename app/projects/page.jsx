@@ -3,6 +3,7 @@ import styles from './page.module.css'
 // import Link from 'next/link'
 import { LuArrowUpRight } from "react-icons/lu";
 import Link from 'next/link';
+import ViewMore from '../components/ViewMore';
 
 
 export const metadata = {
@@ -16,13 +17,15 @@ function Page() {
     <main className='main'>
       <div className={styles.main}>
         <article className={styles.article}>
-          <h1>Work</h1>
+          <h1>Projects</h1>
           <p>
             This is a showcase of my best work building products for a variety of clients in different fields including photography portfolios, auto repair shops, legal firms, pet accessories stores, health, and many more.
           </p>
           <p>
             The world of digital design and development is constantly evolving and so has my role over the last years. I`m still learning and gaining new skills every day.
           </p>
+
+          <ViewMore link='/about/work-experience' text='View Work Experice'/>
 
         </article>
 

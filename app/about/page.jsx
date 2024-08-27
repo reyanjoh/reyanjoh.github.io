@@ -2,6 +2,7 @@
 import React from 'react'
 import styles from './page.module.css'
 import Link from 'next/link'
+import ViewMore from '../components/ViewMore';
 
 
 export const metadata = {
@@ -30,12 +31,14 @@ function page() {
                     feel free to contact me through <Link href={'/contact'}>my contact information page</Link>, or you can always just fill out the form and we`re good to go! 
                 </p>
 
+                <ViewMore link='/about/work-experience' text='View Work Experice'/>
 
             </article>
             <div className={styles.right}>
                 <img alt='' className={styles.img} src={'./imgs/face.webp'} />
             </div>
         </div>
+        
     </main>
   )
 }

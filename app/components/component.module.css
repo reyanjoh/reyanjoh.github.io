@@ -1,0 +1,26 @@
+.archive{
+    margin: 1rem 0;
+    /* background-color: rgb(51, 51, 51); */
+    padding: .5rem 0;
+    font-family: 700;
+    display: flex;
+    align-items: center;
+    transition: .3s;
+    position: relative;
+}
+.archive::after{
+    content: '⇀';
+    font-weight: 500;
+    font-size: 1.5rem;
+    position: absolute;
+    left: 9.4rem;
+    transition: .1s;
+}
+
+.archive:hover{
+    color: var(--primary-highlight);
+}
+
+.archive:hover:after{
+    left: 9.8rem;
+}

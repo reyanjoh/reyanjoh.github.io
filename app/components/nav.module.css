@@ -6,6 +6,9 @@
     padding: 1rem 4rem;
     display: flex;
     justify-content: space-between;
+    /* background-color: red; */
+    background: rgba(44, 44, 46, 0.782);
+    background: linear-gradient(180deg, rgba(44, 44, 46, 0.829) 0%, rgba(44, 44, 46, 0.63) 50%, rgba(44,44,46,0) 100%);
 
 }
 
