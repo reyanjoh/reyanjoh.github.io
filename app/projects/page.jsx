@@ -19,8 +19,9 @@ function Page() {
         <article className={styles.article}>
           <h1>Projects</h1>
           <p>
-            This is a showcase of my best work building products for a variety of clients in different fields including photography portfolios, auto repair shops, legal firms, pet accessories stores, health, and many more.
+            This is a showcase of my best work building products for a variety of clients in different fields including Start up company, photography portfolios,
           </p>
+          {/* auto repair shops, legal firms, pet accessories stores, health, and many more. */}
           <p>
             The world of digital design and development is constantly evolving and so has my role over the last years. I`m still learning and gaining new skills every day.
           </p>
