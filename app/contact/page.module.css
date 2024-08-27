@@ -10,7 +10,51 @@
 .h1{
     font-size: 6rem;
     line-height: normal;
+    margin-bottom: 1rem;
 }
+
+.myemail{
+    /* position: absolute;
+    bottom: 5rem;
+    right: 3rem; */
+    font-size: 2rem;
+    display: flex;
+    align-items: center;
+    position: relative;
+
+}
+
+.myemail span{
+    font-size: 1.3rem;
+    margin-left: 1rem;
+}
+
+.myemail::after{
+    content: '🡥';
+    font-size: 1rem;
+    position: absolute;
+    bottom: -3px;
+    left: 13.8rem;
+    transition: .1s;
+    cursor: pointer;
+}
+
+
+.myemail:hover{
+    color: var(--primary-highlight);
+}
+
+.myemail:hover .span{
+    color: var(--primary-highlight);
+}
+
+.myemail:hover:after{
+    left: 14.2rem;
+    bottom: 1px;
+
+}
+
+
 
 .form{
     display: flex;

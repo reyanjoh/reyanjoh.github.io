@@ -6,6 +6,7 @@ import styles from './page.module.css'
 import Link from 'next/link'
 // import {useRouter} from 'next/router'
 import { useRouter } from 'next/navigation';
+import { MdEmail } from "react-icons/md";
 
 
 function Page() {
@@ -24,7 +25,7 @@ function Page() {
               Let&apos;s Work <br/> Together
             </h1>
 
-            <Link href={'mailto:reyanjohnnarvaja@gmail.com'}>reyanjohnnarvaja@gmail.com</Link>
+            <Link className={styles.myemail} href={'mailto:reyanjohnnarvaja@gmail.com'}>✉<span className={styles.span}>Send Me an email</span></Link>
           </div>
           <div>
             <form className={styles.form} action="https://docs.google.com/forms/d/e/1FAIpQLSdxi1weDi_AasCb32sQ8eyAgbeB-b0_G_8hu2ujsZ-OjXzX8A/formResponse" method='post' onSubmit={handleSubmit}>
