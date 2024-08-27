@@ -1,10 +1,11 @@
+import UnderConstuction from '@/app/components/UnderConstuction'
 import React from 'react'
 
 function Page() {
   return (
     <main className='main'>
       <div>
-        Archies
+        <UnderConstuction />
       </div>
     </main>
 

@@ -116,7 +116,7 @@ function Page() {
             }
             feat={
               [
-                // <span>Search Engine Optimization (SEO)</span>, <span>local SEO</span>, <span>E-Commerce</span>, <span>Next.js</span>
+                <span>Search Engine Optimization (SEO)</span>, <span>local SEO</span>, <span>E-Commerce</span>, <span>Next.js</span>
               ]
             }
           />
